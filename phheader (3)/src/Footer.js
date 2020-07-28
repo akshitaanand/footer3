@@ -154,7 +154,7 @@ class Footer extends Component {
           </MDBContainer>
           <MDBContainer className="tocenter">
             <div style={{ flexDirection: "row" }}>
-              <MDBBtn>
+              <MDBBtn className="even">
                 <Link
                   to={{ pathname: "/Privacy" }}
                   style={{ color: "white", fontSize: "17px" }}
