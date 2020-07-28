@@ -46,6 +46,10 @@ body {
   margin-bottom: 10px;
 }
 
+.even {
+  margin-left: 15px;
+}
+
 .toleft {
   text-align: left;
   margin-top: 20px;
