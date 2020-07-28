@@ -7,11 +7,16 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 export default function App() {
   return (
-    <div className="main-container">
+    <div id="container">
       <Router>
-        <Header />
-        <Route  />
-        <Footer />
+        <div id="header">
+          <Header />
+        </div>
+        <div id="body" />
+        <Route exact path="/Terms" component={Terms} />
+        <div id="footer">
+          <Footer />
+        </div>
       </Router>
     </div>
   );
